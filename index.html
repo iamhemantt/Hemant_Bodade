@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <style>
+    
+    </style>
+</head>
+
+<body>
+    <!--Header Start-->
+    <header>
+        <!--Navbar Start-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">HBodade</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+
+                        <li class="nav-item">
+
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+
+                        </li>
+                    </ul>
+                    <form class="d-flex " role="search">
+                        <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-danger " type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!--Navbar End-->
+
+        <div class="container " id="carousel">
+            <!--Carousel Start-->
+            <div id="carouselExampleInterval" style="margin-top: 1rem;"
+                class="carousel slide carousel-fade w-100  carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="Picsart_22-11-05_13-29-59-139.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="Picsart_22-11-05_13-32-25-810.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="Picsart_22-11-05_13-29-59-139.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <!--Carousel End-->
+
+    </header>
+    <!--Header End-->
+
+    <!--Main Start-->
+    <main>
+
+        <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h1 class="display-4 fw-normal">Bootstrap</h1>
+            <p class="fs-5 text-muted">Bootstrap is HTML, CSS, JAVASCRIPT Framework And I create this Website Using Bootstrap.</p>
+          </div>
+
+          <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+            <h2 class="display-4 fw-normal">Courses</h2>
+          </div>
+          <!--Card2 End-->
+            <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Free</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>10 hours html</li>
+                      <li>2 hours CSS3</li>
+                      <li>Email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">Buy for free</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                  <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">Pro</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>20 House JAVASCRIPT</li>
+                      <li>10 Hour bootstrap</li>
+                      <li>Priority email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm border-primary">
+                  <div class="card-header py-3 text-bg-primary border-primary">
+                    <h4 class="my-0 fw-normal">Enterprise</h4>
+                  </div>
+                  <div class="card-body">
+                    <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small></h1>
+                    <ul class="list-unstyled mt-3 mb-4">
+                      <li>30 Hours MongoDB</li>
+                      <li>15 Hours Node.js</li>
+                      <li>Phone and email support</li>
+                      <li>Help center access</li>
+                    </ul>
+                    <button type="button" class="w-100 btn btn-lg btn-primary">Buy</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--Card2 End-->
+
+    </main>
+    <!--Main End-->
+
+    <!--Footer Start-->
+
+        <div class="container">
+
+            <footer class="py-3 my-4">
+              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Empty</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+              </ul>
+              <p class="text-center text-muted">© 2022 Company, Inc</p>
+            </footer>
+          </div>
+  
+
+    <!--Footer End-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
